@@ -1,0 +1,490 @@
+body{
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.whiteNav{
+    width: 100%;
+    height: 100px;
+}
+.nav-top{
+    height: 100px;
+}
+.larg{
+    max-width: 100%;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #757575;
+  padding-left: 14px;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #757575;
+  padding-left: 14px;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #757575;
+  padding-left: 14px;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #757575;
+  padding-left: 14px;
+}
+
+
+.input_style{
+    max-width: calc(100% - 75px);
+    height: 40px;
+    border: solid 1px #E0E0E0;
+    border-radius: 5px 0px 0px 5px;
+    border-right: none;
+    width: 100%;
+
+}
+
+.buttonSearch{
+    height: 40px;
+    width: 75px;
+    float: left;
+    color: #FFFFFF;
+    background-color: #8BC34A;
+    border-color: #8BC34A;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+}
+.searchContainer{
+    height: auto;
+    margin: auto;
+    float: left;
+    width: 100%;
+}
+.searchCenter{
+    margin: auto;
+    flex-grow: 1;
+}
+
+
+.searchContainer .input_style{
+    float: right;
+}
+
+.searchContainer .buttonSearch{
+    float: right;
+}
+
+.align-center-center{
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    align-items: center;
+
+}
+.containerLogin{
+    height: auto;
+    width: 100%;
+}
+.loginButton{
+    border: 1px solid #757575;
+    color: #757575;
+    background-color: white;
+    border-radius: 3px;
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+}
+.containerLogin .loginButton{
+    float: right;
+
+}
+.containerSign{
+    height: auto;
+    width: 100%;
+    margin-left: 20px;
+}
+.signUp{
+    border: 1px solid #757575;
+    color: #757575;
+    background-color: white;
+    border-radius: 3px;
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+}
+.icons{
+    margin-left: 20px;
+}
+.gray{
+    background-color: #F4F4F4;
+    height: 45px;
+    color: #737270;
+    font-size: 15px;
+    float: left;
+    width: 100%;
+}
+.listNoOrdened li{
+    float: left;
+    list-style: none;
+    padding-left: 20px;
+    line-height: 45px;
+}
+.listNoOrdened{
+    padding: 0;
+    float: left;
+    width: 100%;
+
+}
+
+.mainImg{
+    background-image: url("../img/Rectangle.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+}
+.boxContainer{
+    color: white;
+    width: 750px;
+    margin: auto;
+}
+.boxContainer h1{
+    text-align: center;
+    font-weight: 300;
+}
+.bttnExplore{
+    background-color: #8BC34A;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #8BC34A;
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    margin: auto;
+    margin-top: 30px;
+}
+.containerImg{
+    margin: auto;
+    height: 250px;
+    box-shadow: 1.4px 20px 221px rgba(255, 255, 255, 0.5), 0.8px 12px 68px rgba(9, 9, 9, 0.3);
+
+
+}
+.nameImg{
+    color: #757575;
+    text-align: center;
+}
+.titleTopSeller{
+    margin-top: 50px;
+    color: #8BC34A;
+}
+.borderImg{
+    border: 1px solid;
+    border-color: #E0E0E0;
+    height: auto;
+    border-radius: 5px;
+}
+.largFloating{
+    width: 100%;
+}
+.sizeImg{
+    width:100%;
+}
+.spaceNameImg{
+    padding-top: 19px;
+}
+.infoProducts{
+    margin-left: 20px;
+    background-position: right;
+    background-image: url("../img/seta.svg");
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+.infoProducts h6{
+    color: #757575;
+    font-size: 14px;
+}
+.infoProducts h5{
+    font-size: 16px;
+}
+.infoProducts h4{
+    color: #8BC34A;
+    font-size: 19px;
+}
+.exploreMore{
+    width: 100%;
+    color: #757575;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.setaGray{
+    text-align: center;
+}
+.bigSpace{
+    margin-top: 119px;
+}
+.styleTitle{
+    color: #8BC34A;
+
+}
+.largGraphic{
+    width: 100%;
+}
+.textLorem{
+    color: #757575;
+    margin-top: 30px;
+    font-size: 16px;
+}
+.sideImage{
+    margin: auto;
+    width: 100%;
+}
+.widthBttn{
+    width: 100%;
+}
+.styleBttn{
+    background-color: #8BC34A;
+    color: white;
+    border: 1px solid #8BC34A;
+    border-radius: 3px;
+    width: 150px;;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+}
+.mediumSpace{
+    margin-top: 70px;
+}
+.imgVr{
+    background-image: url("../img/vr.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    width: 100%;
+    height: 444px;
+    border-radius: 5px 5px 0 0;
+}
+.infoForSl{
+    margin-left: 20px;
+    background-position: right;
+    background-image: url(../img/seta.svg);
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.borderProducts{
+    border: 1px solid #C6C6C5;
+    border-radius: 0 0 5px 5px;
+    width: 100%;
+}
+.infoForSl h6{
+    color: #878786;
+    font-size: 14px;
+}
+.infoForSl h5{
+    color: black;
+    font-size: 14px;
+}
+.infoForSl h4{
+    color: #8BC34A;
+    font-size: 19px;
+}
+.borderImgCama{
+    border: 1px solid #C6C6C5;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+
+}
+.imgCama{
+    background-image: url("../img/cama.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    width: 100%;
+    height: 196px;
+}
+.mdSpace{
+    margin-top: 44px;
+}
+.imgPoltrona{
+    background-image: url("../img/poltrona.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 196px;
+    margin-top: 50px;
+    border-radius: 5px 5px 0 0;
+}
+.imgCacto{
+    background-image: url("../img/cacto.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 444px;
+    margin-top: 60px;
+    border-radius: 5px 5px 0 0;
+}
+.finalHow{
+    margin-top: 50px;
+}
+.listOrdened{
+    list-style: none;
+    padding: 0;
+}
+.spaceTitle{
+    margin-bottom: 28px;
+}
+
+.listOrdened li{
+    width: 100%;
+    float: left;
+    line-height: 19px;
+}
+.socialItem .image{
+    width: 19px;
+    height: 19px;
+    margin-right: 8px;
+    float: left;
+    margin-top: 7px;
+}
+
+.socialItem .text{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 30px;
+    float: left;
+}
+.spaceText li{
+    margin-bottom: 16px;
+}
+
+.socialItem .image.fb{
+    background-image: url("../img/fb_icon.svg");
+    background-repeat: no-repeat;
+}
+
+.socialItem .image.pin{
+    background-image: url("../img/pin_icon.svg");
+    background-repeat: no-repeat;
+}
+
+.socialItem .image.tw{
+    background-image: url("../img/twt_icon.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.socialItem .image.insta{
+    background-image: url("../img/insta_icon.svg");
+    background-repeat: no-repeat;
+}
+hr{
+    width: 100%;
+    background-color: #C6C6C5;
+}
+
+
+.finalLayout{
+    width: 100%;
+}
+.textFinal{
+    text-align: center;
+    font-size: 14px;
+    color: #878786;
+    padding-bottom: 20px;
+}
+.colorLink{
+    color: #878786;
+}
+
+#floatingProductsReference{
+    position:relative;
+    padding-bottom: 150px;
+}
+
+#floatingProducts{
+    position: absolute;
+    top: -100px;
+    background-color: #fff;
+    height: auto;
+    padding-bottom: 20px;
+}
+@media screen and (max-width: 800px){
+    .responsive{
+        padding-left: calc(50% - 83px);
+    }
+    .responsiveButton{
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+    }
+    .searchResponsive{
+    }
+    .disappearResponsive{
+    display: none;
+    }
+    .toGrowWhite{
+    height: auto;
+    }
+    .responsiveImgs{
+        margin-top: 50px;
+    }
+    .centerResponsive{
+        text-align: center;
+    }
+    .zeroSpaceResponsive{
+        margin: 0;
+    }
+    .responsiveSideImage{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .responsiveBorder{
+        text-align: center;
+    }
+    .responsiveSizeImg{
+        margin-top: 20px;
+    }
+    .responsiveTitle{
+        text-align: center;
+    }
+    .responsiveInput_style{
+        width: 100%;
+    }
+    .responsiveStyleBttn{
+        margin: auto;
+        text-align: center;
+    }
+    .responsiveButtonSideImg{
+        margin-bottom: 50px;
+    }
+    .responsiveVr{
+        height: 250px;
+    }
+    #floatingProductsReference{
+        padding-bottom: 0;
+    }
+    .searchCenter{
+        margin: auto;
+    }
+    .bttnsInitials{
+        margin: auto;
+        float: left;
+    }
+    .bigSpace{
+        margin-top: 50px;
+    }
+    .titleTopSeller{
+        margin-top: 50px;
+    }
+    .containerLogin{
+        margin: auto;
+    }
+
+}

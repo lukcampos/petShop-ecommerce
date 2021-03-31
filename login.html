@@ -8,13 +8,12 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
-    <title>Home User Login</title>
+
+
+    <title>Shopper</title>
 </head>
 
 <body>
-
-
-
     <div class="whiteNav toGrowWhite">
         <div class="container containerResponsive">
             <div class="row">
@@ -23,7 +22,7 @@
                         <img class="larg responsive" src="img/Logo.svg" alt="Imagem de logo">
                     </nav>
                 </div>
-                <div class="col-lg-4 col-md-3 align-center-center">
+                <div class="col-lg-6 col-md-4 align-center-center">
                     <div class="searchCenter">
                         <div class="searchContainer">
 
@@ -35,21 +34,100 @@
                     </div>
                 </div>
 
-                <div class="col-md-5 align-center-center">
-                    <div class="containerLogin responsiveCenter">
-                        <button class="loginButton responsiveButton requestResponsive" type="button" name="button">
-                            Request Quote
+                <div class="col-md-4 align-center-center">
+                    <div class="containerLogin">
+                        <button class="loginButton responsiveButton" type="button" name="button" id="btnLogin">
+                            Log in
                         </button>
-
                     </div>
 
-                    <div class="containerSign dashboardResponsive responsiveCenter" >
-                        <button class="signUp responsiveButton " type="button" id="notification" name="button">
-                            <div id="notificationGreen" >
+                    <div class="modal">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <div class="imgInitialSpace">
+                                        <div class="imgModalClose">
 
+                                        </div>
+                                            <img class="larg imgShoppModal" src="img/Logo.svg" alt="Imagem de logo">
+                                    </div>
+
+                                </div>
+                                <div class="modal-body">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="inputsModal">
+                                                    <input class="styleInputModal" type="text" name="" value="" placeholder="Username  /  Email Address">
+                                                    <input class="styleInputModal secondInputModal" type="text" name="" value="" placeholder="Password">
+                                                </div>
+                                            </div>
+
+                                                <div class="col-md-6 col-6">
+                                                    <input class="styleCheckboxModal" type="checkbox" name="" value="">
+                                                    <h6 class="checkboxText">Keep me Logged in</h6>
+                                                </div>
+                                                <div class="col-md-6 col-6">
+                                                    <h6 class="checkboxText rightText">Forgot Password?</h6>
+                                                </div>
+                                                <div class="col-md-6 col-6">
+                                                    <button class="buttonModal" type="button" name="button">Log in</button>
+                                                </div>
+                                                <div class="col-md-6 col-6">
+                                                    <button class="buttonModal secondButtonModal" type="button" name="button">Log in as a Guest</button>
+                                                </div>
+                                                <div class="lineModal">
+
+                                                        <div class="lineText">
+                                                            Or
+                                                        </div>
+
+                                                </div>
+                                                <div class="boxModal">
+                                                    <div class="signInWith">
+                                                        Sign in with
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-5 col-5">
+                                                    <div class="imgFbModal">
+
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-2 col-2">
+                                                    <div class="imgGModal">
+
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-5 col-5">
+                                                    <div class="imgPinModal">
+
+                                                    </div>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <div class="container">
+                                    <div class="row">
+                                    <div class="col-md-6 col-6 col-6">
+                                        <div class="boxFooterModal">
+                                        <div class="textFooterModal">
+                                            Not have an Account?
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-6">
+                                    <button class="btnRegister" type="button" name="button">Register</button>
+                                </div>
                             </div>
-                            Dashboard
-                        </button>
+                            </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="containerSign">
+                        <button class="signUp responsiveButton" type="button" name="button">Sign up</button>
                     </div>
 
                     <div class="icons disappearResponsive">
@@ -59,17 +137,14 @@
                     <div class="icons disappearResponsive">
                         <img class src="img/icon.svg" alt="carrinho de compras">
                     </div>
-                    <div class="pictureLogin pictureResponsive">
-                    </div>
-                    <div class="setaLogin setaLoginResponsive">
-
-                    </div>
                 </div>
-
 
             </div>
         </div>
     </div>
+
+
+
 
     <div class="gray disappearResponsive">
         <div class="container">
@@ -87,44 +162,135 @@
         </div>
     </div>
 
-    <div class="container">
-        <div class="row spaceMd">
-            <div class="col-md-4">
-                <div class="imgLayer responsiveImgs">
-                </div>
-                <div class="borderProducts responsiveBorder">
-                    <div class="infoForSl">
-                        <h6>Supplier's Name Here</h6>
-                        <h5>Product Name Here</h5>
-                        <h4>$29,354.75</h4>
+    <div class="mainImg align-center-center">
+        <div class="boxContainer container">
+            <h1>We have dream to connect wholesalers to independent Customers<h1>
+                    <button class="bttnExplore" type="button" name="button">Explore</button>
+        </div>
+    </div>
+
+    <div class="container zeroSpaceResponsive" id="floatingProductsReference">
+        <div class="row containerImg" id="floatingProducts">
+
+            <div class="col-md-12 disappearResponsive">
+
+                <div class="row">
+                    <div class="col-md-3">
+                        <img class="largFloating disappearResponsive" src="img/group.jpg" alt="imagem anel">
+                        <div class="nameImg disappearResponsive">
+                            Jewelry
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="imgBitmap responsiveImgs">
-                </div>
-                <div class="borderProducts responsiveBorder">
-                    <div class="infoForSl">
-                        <h6>Supplier's Name Here</h6>
-                        <h5>Product Name Here</h5>
-                        <h4>$29,354.75</h4>
+                    <div class="col-md-3">
+                        <img class="largFloating disappearResponsive" src="img/cadeira.jpg" alt="imagem cadeira">
+                        <div class="nameImg disappearResponsive">
+                            Furniture
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="imgOculos responsiveImgs">
-                </div>
-                <div class="borderProducts responsiveBorder">
-                    <div class="infoForSl">
-                        <h6>Supplier's Name Here</h6>
-                        <h5>Product Name Here</h5>
-                        <h4>$29,354.75</h4>
+                    <div class="col-md-3">
+                        <img class="largFloating disappearResponsive" src="img/pincel.jpg" alt="imagem pincel">
+                        <div class="nameImg disappearResponsive">
+                            Makeup
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <img class="largFloating disappearResponsive" src="img/bicicleta.jpg" alt="imagem bicicleta">
+                        <div class="nameImg disappearResponsive">
+                            Sports Equipment
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="titleTopSeller">Top Seller</h3>
+            </div>
+        </div>
+
+    </div>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="borderImg responsiveSizeImg">
+                    <img class="sizeImg" src="img/rb.jpg" alt="imagem ray ban">
+                    <div class="infoProducts">
+                        <h6 class="spaceNameImg">Cobalt Union</h6>
+                        <h5>MERRY'S Cat Eye Sunglasses Women</h5>
+                        <h4>$125.00</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="borderImg responsiveSizeImg">
+                    <img class="sizeImg" src="img/bike.jpg" alt="">
+                    <div class="infoProducts">
+                        <h6 class="spaceNameImg">Cyrusshare</h6>
+                        <h5>SAVA DECK300 Mountain bike 29"</h5>
+                        <h4>$1,399.99</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="borderImg responsiveSizeImg">
+                    <img class="sizeImg" src="img/banco.jpg" alt="">
+                    <div class="infoProducts">
+                        <h6 class="spaceNameImg">Cobind pvt.</h6>
+                        <h5>Premium Wood Luna Bench</h5>
+                        <h4>$354.75</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="exploreMore">
+            Explore More >
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row bigSpace">
+            <div class="col-md-6">
+
+                <h3 class="styleTitle responsiveTitle">Why Become Buyer?</h3>
+                <div class="textLorem responsiveTitle">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.
+                </div>
+                <div class="widthBttn responsiveStyleBttn">
+                    <button class="styleBttn responsiveTitle" type="button" name="button">Apply to Buy
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-6 align-center-center">
+                <img class="sideImage responsiveSideImage" src="img/illustration.svg" alt="imagem porco">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row bigSpace">
+            <div class="col-md-6">
+                <img class="largGraphic responsiveButtonSideImg" src="img/img2.svg" alt="imagem">
+            </div>
+            <div class="col-md-6">
+                <h3 class="styleTitle responsiveTitle">Why Become Seller?</h3>
+                <div class="textLorem responsiveTitle">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.
+                </div>
+                <div class="widthBttn responsiveStyleBttn">
+                    <button class="styleBttn" type="button" name="button">Apply to Sell
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="container">
         <div class="row bigSpace">
             <div class="col-md-6">
@@ -143,7 +309,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="imgsProductsSellerProfile">
+                        <div class="imgPoltrona">
                         </div>
                         <div class="borderProducts responsiveBorder">
                             <div class="infoForSl">
@@ -154,7 +320,7 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="imgsProductsSellerProfile">
+                        <div class="imgPoltrona">
                         </div>
                         <div class="borderProducts responsiveBorder">
                             <div class="infoForSl">
@@ -165,7 +331,7 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="imgsProductsSellerProfile">
+                        <div class="imgPoltrona">
                         </div>
                         <div class="borderProducts responsiveBorder">
                             <div class="infoForSl">
@@ -176,7 +342,7 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="imgsProductsSellerProfile">
+                        <div class="imgPoltrona">
                         </div>
                         <div class="borderProducts responsiveBorder">
                             <div class="infoForSl">
@@ -187,7 +353,7 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="imgsProductsSellerProfile">
+                        <div class="imgPoltrona">
                         </div>
                         <div class="borderProducts responsiveBorder">
                             <div class="infoForSl">
@@ -198,7 +364,7 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="imgsProductsSellerProfile">
+                        <div class="imgPoltrona">
                         </div>
                         <div class="borderProducts responsiveBorder">
                             <div class="infoForSl">
@@ -210,6 +376,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="col-md-6">
                 <div class="row">
                     <div class="col-md-6">
@@ -304,12 +471,8 @@
                 </div>
             </div>
         </div>
+
     </div>
-
-
-
-
-
 
 
 
@@ -417,7 +580,16 @@
         </div>
 
     </footer>
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        var btnLogin = document.getElementById("btnLogin");
+        btnLogin.addEventListener("click", function() {
+            $(".modal").modal("show")
+        })
 
+    </script>
 </body>
 
 </html>

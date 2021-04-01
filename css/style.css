@@ -1252,6 +1252,7 @@ ol {
 
 .textFinalContact {
     text-align: center;
+
 }
 
 .submitAppli {
@@ -2350,129 +2351,7 @@ hr{
 .lineBread{
     margin-left: 5px;
 }
-@media screen and (max-width: 768px) {
-    .custom {
-        width: 100%;
-    }
 
-    .customLarger {
-        width: 100%;
-    }
-
-    .spc1, .spc2, .spc3 {
-        margin-bottom: 25px;
-    }
-
-    .centerInputConfirm {
-        margin: auto;
-        width: 100%;
-        height: 40px;
-        margin-top: 12px;
-    }
-
-    .buttonGoShopp {
-        margin-bottom: 50px !important;
-    }
-
-    .lastText {
-        margin-top: 50px !important;
-    }
-
-    .responsiveBorderSeller {
-        display: none;
-    }
-
-    .styleButtonFollow {
-        float: left;
-    }
-
-    .styleButtonContact {
-        float: right;
-    }
-    .sizeFont{
-        text-align: center;
-    }
-    .titleFirstCart{
-        display: none;
-    }
-    .titleSecondCart{
-        display: none;
-    }
-    .titleThirdCart{
-        display: none;
-    }
-    .lineCart{
-        display: none;
-    }
-    .imgsBoxCart{
-        width: 100% !important;
-        height: auto;
-
-
-    }
-    .boxMallerCart{
-        width: 100% ;
-        position: relative;
-    }
-    .secondBoxMaller{
-        width: 100% ;
-        height: auto;
-    }
-    .textProductCart{
-        max-width: 100% ;
-        height: auto;
-        width: 100% ;
-        text-align: center ;
-        margin-top: 10px;
-    }
-    .imgX{
-        position: absolute;
-        top: -12px;
-        left: 134px;
-    }
-    .imgsPoltronaCart{
-        max-width: 100% ;
-        width: 100% ;
-        margin:auto;
-        background-position: center;
-        margin-left: 0;
-        margin-top: 10px;
-    }
-    .secondTextCart{
-        width: 100% ;
-    }
-    .thirdBoxMaller{
-    width: 100% ;
-    }
-    .priceProduct{
-        margin-top: 10px;
-    }
-    .amountProduct{
-        margin-top: 10px;
-    }
-    .imgPromotionRight{
-        display: none;
-    }
-    .buttonProcess{
-        width: calc(100% - 25px);
-
-    }
-    .boxResponsivoSubtotal{
-        margin: auto;
-        margin-top: 20px;
-    }
-    .flexD{
-        display: flex;
-    }
-    .inputCart{
-        width: 74%;
-        margin-top: 10px;
-    }
-    .buttonCartApply{
-        margin-top: 10px;
-    }
-
-}
 .listCheckout{
         float: left;
         width: 100%;
@@ -3076,32 +2955,7 @@ float: right;
     text-align: center;
     font-size: 14px;
 }
-.imgFbModal{
-    background-image: url("../img/fb.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 42px;
-    width: 42px;
-    float: right;
-    margin-top: 16px;
-}
-.imgGModal{
-    background-image: url("../img/g+.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 42px;
-    width: 42px;
-    margin-top: 16px;
-}
-.imgPinModal{
-    background-image: url("../img/ptrst.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 42px;
-    width: 42px;
-    margin-top: 16px;
-    float: left;
-}
+
 .textFooterModal{
     float: right;
     font-size: 14px;
@@ -3146,4 +3000,177 @@ float: right;
     color: #FFFFFF;
     font-size: 14px;
     border-radius: 4px;
+}
+.boxIconsModal{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.boxMenorModal{
+    width: 182px;
+    height: 60px;
+    margin: auto;
+}
+.imgFbModal{
+    background-image: url("../img/fb.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 42px;
+    width: 42px;
+    float: left;
+    margin-top: 16px;
+}
+.imgGModal{
+    background-image: url("../img/g+.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 42px;
+    width: 42px;
+    margin-top: 16px;
+    float: left;
+    margin-left: 28px;
+}
+.imgPinModal{
+    background-image: url("../img/ptrst.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 42px;
+    width: 42px;
+    margin-top: 16px;
+    float: right;
+}
+
+@media screen and (max-width: 768px) {
+    .custom {
+        width: 100%;
+    }
+
+    .customLarger {
+        width: 100%;
+    }
+
+    .spc1, .spc2, .spc3 {
+        margin-bottom: 25px;
+    }
+
+    .centerInputConfirm {
+        margin: auto;
+        width: 100%;
+        height: 40px;
+        margin-top: 12px;
+    }
+
+    .buttonGoShopp {
+        margin-bottom: 50px !important;
+    }
+
+    .lastText {
+        margin-top: 50px !important;
+    }
+
+    .responsiveBorderSeller {
+        display: none;
+    }
+
+    .styleButtonFollow {
+        float: left;
+    }
+
+    .styleButtonContact {
+        float: right;
+    }
+    .sizeFont{
+        text-align: center;
+    }
+    .titleFirstCart{
+        display: none;
+    }
+    .titleSecondCart{
+        display: none;
+    }
+    .titleThirdCart{
+        display: none;
+    }
+    .lineCart{
+        display: none;
+    }
+    .imgsBoxCart{
+        width: 100% !important;
+        height: auto;
+
+
+    }
+    .boxMallerCart{
+        width: 100% ;
+        position: relative;
+    }
+    .secondBoxMaller{
+        width: 100% ;
+        height: auto;
+    }
+    .textProductCart{
+        max-width: 100% ;
+        height: auto;
+        width: 100% ;
+        text-align: center ;
+        margin-top: 10px;
+    }
+    .imgX{
+        position: absolute;
+        top: -12px;
+        left: 134px;
+    }
+    .imgsPoltronaCart{
+        max-width: 100% ;
+        width: 100% ;
+        margin:auto;
+        background-position: center;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .secondTextCart{
+        width: 100% ;
+    }
+    .thirdBoxMaller{
+    width: 100% ;
+    }
+    .priceProduct{
+        margin-top: 10px;
+    }
+    .amountProduct{
+        margin-top: 10px;
+    }
+    .imgPromotionRight{
+        display: none;
+    }
+    .buttonProcess{
+        width: calc(100% - 25px);
+
+    }
+    .boxResponsivoSubtotal{
+        margin: auto;
+        margin-top: 20px;
+    }
+    .flexD{
+        display: flex;
+    }
+    .inputCart{
+        width: 74%;
+        margin-top: 10px;
+    }
+    .buttonCartApply{
+        margin-top: 10px;
+    }
+    .flex-container{
+
+        width: 100%;
+        height: auto;
+        {display: flex; flex-flow: column;}
+    }
+    .textFinalContact{
+
+
+        {order: 1;}
+    }
+
 }

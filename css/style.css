@@ -358,7 +358,8 @@ body {
 .mdSpace {
     margin-top: 44px;
 }
-.imgPoltrona{
+
+.imgPoltrona {
     background-image: url("../img/poltrona.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -665,7 +666,8 @@ hr {
         width: 100%;
         height: auto;
     }
-    .zeroColorMargin{
+
+    .zeroColorMargin {
         margin-left: 5px !important;
     }
 
@@ -680,11 +682,11 @@ hr {
     .date {
         margin-left: 26px;
     }
-    .buttonCartApply{
+
+    .buttonCartApply {
         margin-left: 30px !important;
         margin-top: 10px;
     }
-
 }
 
 @media screen and (min-width: 800px) {
@@ -1203,7 +1205,6 @@ ol {
     margin-right: 25px;
 }
 
-
 .space {
     margin-top: 39px;
     margin-bottom: 9px;
@@ -1221,7 +1222,6 @@ ol {
     background-color: #C6C6C5;
     margin-top: 12px;
     float: left;
-
 }
 
 .spaceAddress {
@@ -1252,7 +1252,6 @@ ol {
 
 .textFinalContact {
     text-align: center;
-
 }
 
 .submitAppli {
@@ -1551,13 +1550,12 @@ ol {
     float: left;
 }
 
-ul#calendarList  {
+ul#calendarList {
     margin: auto;
     float: none;
     width: 138px;
     margin-top: 15px;
 }
-
 
 .date {
     float: left;
@@ -1565,8 +1563,6 @@ ul#calendarList  {
     text-align: center;
     margin: auto;
 }
-
-
 
 #calendarList .hifem {
     border: solid 1px #1C1C1B;
@@ -1578,44 +1574,50 @@ ul#calendarList  {
     margin-right: 5px;
 }
 
-.styleCalendar{
+.styleCalendar {
     width: 100%;
     height: auto;
     float: left;
     margin-top: 10px;
 }
-.eventName{
+
+.eventName {
     text-align: center;
     font-size: 14px;
 }
-.state{
+
+.state {
     text-align: center;
     color: #636363;
     font-size: 14px;
     margin-top: 5px;
 }
 
-.boxDate{
+.boxDate {
     width: 100%;
     height: auto;
     float: left;
     margin-top: 10px;
 }
-.lastMes{
+
+.lastMes {
     text-align: center;
     float: left;
     width: 100%;
     text-transform: uppercase;
     font-size: 15px;
 }
-.lastDate{
+
+.lastDate {
     text-align: center;
     width: 100%;
     font-size: 22px;
 }
-.stateSpaceBottom{
+
+.stateSpaceBottom {
     margin-bottom: 21px;
 }
+
 .setaCategory {
     background-image: url("../img/arrow_2.svg");
     background-repeat: no-repeat;
@@ -1669,7 +1671,6 @@ ul {
     font-size: 14px;
     width: 100%;
     float: left;
-
 }
 
 .styleMarginTop {
@@ -1682,7 +1683,6 @@ ul {
     float: left;
     margin-top: 2px;
 }
-
 
 .spaceMargin {
     font-size: 14px;
@@ -1865,7 +1865,7 @@ ul {
     float: left;
 }
 
-.linePagination{
+.linePagination {
     width: 100%;
     height: auto;
     float: left;
@@ -1873,7 +1873,8 @@ ul {
     justify-content: center;
     align-items: center;
 }
-.setaPagination{
+
+.setaPagination {
     float: left;
     height: auto;
     width: 10px;
@@ -1882,7 +1883,7 @@ ul {
     margin-top: 24px;
 }
 
-.backPagination{
+.backPagination {
     float: left;
     height: auto;
     font-size: 14px;
@@ -1891,7 +1892,7 @@ ul {
     margin-top: 24px;
 }
 
-.pagination_1{
+.pagination_1 {
     float: left;
     height: auto;
     font-size: 14px;
@@ -1901,7 +1902,7 @@ ul {
     text-align: center;
 }
 
-.pagination_2{
+.pagination_2 {
     float: left;
     height: auto;
     font-size: 14px;
@@ -1910,7 +1911,8 @@ ul {
     margin-top: 24px;
     text-align: center;
 }
-.pagination_3{
+
+.pagination_3 {
     float: left;
     height: auto;
     font-size: 14px;
@@ -1919,7 +1921,8 @@ ul {
     margin-top: 24px;
     text-align: center;
 }
-.pagination_4{
+
+.pagination_4 {
     float: left;
     height: auto;
     font-size: 14px;
@@ -1928,7 +1931,8 @@ ul {
     margin-top: 24px;
     text-align: center;
 }
-.pagination_5{
+
+.pagination_5 {
     float: left;
     height: auto;
     font-size: 14px;
@@ -1937,7 +1941,8 @@ ul {
     margin-top: 24px;
     text-align: center;
 }
-.pagination_6{
+
+.pagination_6 {
     float: left;
     height: auto;
     font-size: 14px;
@@ -1946,7 +1951,8 @@ ul {
     margin-top: 24px;
     text-align: center;
 }
-.nextPagination{
+
+.nextPagination {
     float: left;
     height: auto;
     font-size: 14px;
@@ -1954,7 +1960,8 @@ ul {
     margin-left: 40px;
     margin-top: 24px;
 }
-.setaPaginationRight{
+
+.setaPaginationRight {
     float: left;
     height: auto;
     width: 10px;
@@ -1964,26 +1971,26 @@ ul {
     margin-top: 24px;
 }
 
-.acitivePagSelected{
+.acitivePagSelected {
     border: 1px solid #8BC34A;
     border-radius: 3px;
     height: 25px;
     width: 25px;
     color: #8BC34A;
-
 }
 
-.boxClothing{
+.boxClothing {
     margin-top: 25px;
     color: #8BC34A;
     width: 100%;
     height: auto;
 }
 
-.sizeFont{
+.sizeFont {
     font-size: 30px;
 }
-.buttonCategory{
+
+.buttonCategory {
     margin: auto;
     width: 100%;
     height: auto;
@@ -1991,7 +1998,8 @@ ul {
     margin-top: 59px;
     margin-bottom: 101px;
 }
-.styleButtonCategory{
+
+.styleButtonCategory {
     border: 1px solid #8BC34A;
     border-radius: 4px;
     background-color: white;
@@ -2002,14 +2010,15 @@ ul {
     margin: auto;
 }
 
-.boxButtonInitial{
+.boxButtonInitial {
     width: 100%;
     height: auto;
     text-align: center;
     margin-top: 40px;
     float: left;
 }
-.styleButtonInitial{
+
+.styleButtonInitial {
     border: 1px solid #8BC34A;
     background-color: #8BC34A;
     color: #FFFFFF;
@@ -2019,14 +2028,14 @@ ul {
     font-size: 14px;
 }
 
-.styleSecondButton{
+.styleSecondButton {
     border: none;
     background-color: transparent;
     color: #878786;
     font-size: 14px;
 }
 
-.coracaoWishlist{
+.coracaoWishlist {
     background-image: url("../img/coracao_img.svg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -2038,11 +2047,12 @@ ul {
     right: 17px;
     top: 13px;
 }
-.positionImg{
-    position: relative;
 
+.positionImg {
+    position: relative;
 }
-.coracaoWishlistPosition{
+
+.coracaoWishlistPosition {
     background-image: url("../img/coracao_img.svg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -2054,13 +2064,16 @@ ul {
     right: 31px;
     top: 63px;
 }
-.boxContainerCart{
+
+.boxContainerCart {
     width: 100%;
     height: auto;
     float: left;
 }
-.titleFirstCart{
-    font-size: 16px;;
+
+.titleFirstCart {
+    font-size: 16px;
+    ;
     text-transform: uppercase;
     margin-top: 37px;
     float: left;
@@ -2068,7 +2081,8 @@ ul {
     height: auto;
     text-align: center;
 }
-.titleSecondCart{
+
+.titleSecondCart {
     font-size: 16px;
     text-transform: uppercase;
     float: left;
@@ -2077,7 +2091,7 @@ ul {
     text-align: center;
 }
 
-.titleThirdCart{
+.titleThirdCart {
     text-transform: uppercase;
     float: left;
     margin-top: 37px;
@@ -2085,13 +2099,14 @@ ul {
     text-align: center;
 }
 
-.lineCart{
+.lineCart {
     width: 100%;
     height: 1px;
     background-color: #C6C6C5;
     float: left;
     margin-top: 20px;
 }
+
 .imgX {
     background-image: url("../img/cross.svg");
     background-size: contain;
@@ -2101,24 +2116,22 @@ ul {
     float: left;
     text-align: center;
     margin-top: 63px;
-
 }
 
-.imgsBoxCart{
-
+.imgsBoxCart {
     width: 100%;
     height: auto;
     margin: auto;
     float: left;
-
 }
-.boxMallerCart{
+
+.boxMallerCart {
     width: 59%;
     height: auto;
     float: left;
-
 }
-.imgsPoltronaCart{
+
+.imgsPoltronaCart {
     background-image: url("../img/bitmap_3.jpg");
     background-size: contain;
     background-repeat: no-repeat;
@@ -2128,7 +2141,8 @@ ul {
     margin-top: 20px;
     float: left;
 }
-.textProductCart{
+
+.textProductCart {
     float: left;
     margin-top: 33px;
     font-size: 16px;
@@ -2136,28 +2150,31 @@ ul {
     text-align: left;
     padding-left: 10px;
 }
-.secondTextCart{
+
+.secondTextCart {
     font-size: 14px;
     color: #878786;
 }
-.secondBoxMaller{
+
+.secondBoxMaller {
     width: 18%;
     height: auto;
     float: left;
 }
-.priceProduct{
+
+.priceProduct {
     color: #878786;
     text-align: center;
     margin-top: 61px;
 }
-.thirdBoxMaller{
+
+.thirdBoxMaller {
     width: 23%;
     height: auto;
     float: left;
-
-
 }
-.amountProduct{
+
+.amountProduct {
     border: 1px solid #C8C8C8;
     width: 40px;
     height: 40px;
@@ -2169,24 +2186,22 @@ ul {
     padding-top: 6px;
 }
 
-
-
-hr{
+hr {
     float: left;
 }
 
-.hrPosition{
+.hrPosition {
     margin-top: 33px;
     float: left;
 }
 
-.imgPromotionRight{
+.imgPromotionRight {
     width: 100%;
     margin-top: 69px;
 }
 
-.inputCart{
-    border:1px solid #E0E0E0;
+.inputCart {
+    border: 1px solid #E0E0E0;
     border-radius: 4px;
     height: 40px;
     font-size: 18px;
@@ -2194,12 +2209,11 @@ hr{
     float: left;
 }
 
-.inputCart::placeholder{
+.inputCart::placeholder {
     color: #CBCBCB;
-
 }
 
-.buttonCartApply{
+.buttonCartApply {
     height: 40px;
     border: 1px solid #878786;
     background-color: #878786;
@@ -2211,38 +2225,42 @@ hr{
     margin-left: 15px;
 }
 
-.subtotal{
+.subtotal {
     float: right;
     font-size: 20px;
     margin-left: 61px;
 }
-.priceSubtotal{
+
+.priceSubtotal {
     font-size: 20px;
     float: right;
 }
 
-.boxTotalAmount{
+.boxTotalAmount {
     width: 100%;
     height: auto;
     box-shadow: 1.4px 20px 221px rgba(255, 255, 255, 0.5), 0.3px 5px 10px rgba(9, 9, 9, 0.2);
     float: left;
-    margin-top: 27px;border-radius: 5px;
+    margin-top: 27px;
+    border-radius: 5px;
 }
 
-.totalAmount{
+.totalAmount {
     font-size: 20px;
     float: left;
     margin-top: 30px;
     margin-left: 22px;
 }
-.price_Total{
+
+.price_Total {
     margin-left: 17px;
     font-size: 30px;
     margin-top: 21px;
     float: right;
     margin-right: 22px;
 }
-.centerButtonProcess{
+
+.centerButtonProcess {
     width: 100%;
     height: 40px;
     float: left;
@@ -2250,7 +2268,8 @@ hr{
     margin-top: 27px;
     margin-bottom: 30px;
 }
-.buttonProcess{
+
+.buttonProcess {
     background-color: #8BC34A;
     border: 1px solid #8BC34A;
     border-radius: 4px;
@@ -2261,7 +2280,7 @@ hr{
     text-transform: uppercase;
 }
 
-.imgCardInput{
+.imgCardInput {
     background-image: url("../img/card.svg");
     background-repeat: no-repeat;
     background-size: contain;
@@ -2273,93 +2292,93 @@ hr{
     top: 65px;
 }
 
-    .inputRadioStyle:before {
-        width: 20px;
-        height: 19px;
-        border-radius: 15px;
-        top: -0px;
-        left: -0px;
-        position: relative;
-        background-color: #FFFFFF;
-        content: '';
-        display: inline-block;
-        visibility: visible;
-        border: 1px solid #8BC34A;
-        border-color: #8BC34A;
-    }
+.inputRadioStyle:before {
+    width: 20px;
+    height: 19px;
+    border-radius: 15px;
+    top: -0px;
+    left: -0px;
+    position: relative;
+    background-color: #FFFFFF;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 1px solid #8BC34A;
+    border-color: #8BC34A;
+}
 
+.inputRadioStyle[type='radio']:checked:after {
+    width: 12px;
+    height: 11px;
+    border-radius: 15px;
+    top: -28px;
+    left: 4px;
+    position: relative;
+    background-color: #8BC34A;
+    ;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 1px solid #8BC34A;
+}
 
-    .inputRadioStyle[type='radio']:checked:after {
-            width: 12px;
-            height: 11px;
-            border-radius: 15px;
-            top: -28px;
-            left: 4px;
-            position: relative;
-            background-color: #8BC34A;;
-            content: '';
-            display: inline-block;
-            visibility: visible;
-            border: 1px solid #8BC34A;
-
-        }
-
-
-
-
-
-@media screen and (max-width: 414px){
-    .imgX{
+@media screen and (max-width: 414px) {
+    .imgX {
         position: absolute;
         left: 100px;
-
     }
-    .imgsPoltronaCart{
+
+    .imgsPoltronaCart {
         position: relative;
     }
 }
-@media screen and (max-width: 320px){
-    .imgX{
+
+@media screen and (max-width: 320px) {
+    .imgX {
         position: absolute;
         left: 50px;
-
     }
-    .imgsPoltronaCart{
+
+    .imgsPoltronaCart {
         position: relative;
     }
-    .hrPosition{
+
+    .hrPosition {
         margin-top: 27px;
         float: left;
     }
-    .totalAmount{
+
+    .totalAmount {
         margin-left: 10px;
     }
-    .price_Total{
+
+    .price_Total {
         margin-right: 10px;
     }
-    .inputCart{
+
+    .inputCart {
         width: 60% !important;
     }
-
 }
 
-.homeBread{
+.homeBread {
     float: left;
     color: #878786;
-
 }
-.lineBread{
+
+.lineBread {
     margin-left: 5px;
 }
 
-.listCheckout{
-        float: left;
-        width: 100%;
-        margin-top: 35px;
-        padding-left: 0;
-        text-align: center;
+.listCheckout {
+    float: left;
+    width: 100%;
+    margin-top: 35px;
+    padding-left: 0;
+    text-align: center;
 }
-.listCheckout li{
+
+.listCheckout li {
     margin: auto;
     color: #878786;
     font-size: 14px;
@@ -2367,11 +2386,13 @@ hr{
     list-style: none;
     width: 33%;
 }
-.namesCheckout{
+
+.namesCheckout {
     margin-top: 56px;
     font-size: 14px;
 }
-.inputsCheckout{
+
+.inputsCheckout {
     width: 100%;
     height: 40px;
     margin-top: 6px;
@@ -2379,7 +2400,8 @@ hr{
     border-radius: 4px;
     font-size: 14px;
 }
-.selectUnited{
+
+.selectUnited {
     border-radius: 5px;
     border: 1px solid #C6C6C5;
     color: #878786;
@@ -2389,39 +2411,44 @@ hr{
     font-size: 14px;
     margin-top: 6px;
 }
-.nameRequired{
+
+.nameRequired {
     float: right;
     color: #EA5C37;
 }
-.checkboxSecond{
+
+.checkboxSecond {
     width: 20px;
     height: 20px;
     margin-top: 60px;
     float: left;
 }
-.checkCreate{
+
+.checkCreate {
     font-size: 14px;
     color: #CBCBCB;
     margin-top: 60px;
     margin-left: 25px;
 }
-.namesCheckoutSecond{
+
+.namesCheckoutSecond {
     margin-top: 24px;
     font-size: 14px;
 }
 
-.titleCheckout_3{
+.titleCheckout_3 {
     margin-top: 54px;
     color: #8BC34A;
     font-size: 14px;
 }
-.boxSizeCheckout{
+
+.boxSizeCheckout {
     width: 100%;
     height: auto;
     float: left;
-
 }
-.imgsCheckout_3{
+
+.imgsCheckout_3 {
     background-image: url("../img/bitmap_3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -2429,16 +2456,18 @@ hr{
     width: 68px;
     height: 50px;
     float: left;
-        margin-top: 19px;
+    margin-top: 19px;
 }
-.nameProductCheckout{
+
+.nameProductCheckout {
     float: left;
     margin-top: 30px;
     margin-left: 19px;
     color: #878786;
     font-size: 14px;
 }
-.qtyProduct{
+
+.qtyProduct {
     margin-top: 24px;
     border: 1px solid #C8C8C8;
     border-radius: 3px;
@@ -2451,7 +2480,8 @@ hr{
     font-size: 14px;
     margin-left: 88px;
 }
-.priceProductCheckout{
+
+.priceProductCheckout {
     margin-top: 20px;
     height: auto;
     width: 73px;
@@ -2461,12 +2491,14 @@ hr{
     color: #878786;
     font-size: 14px;
 }
-.shippingProduct{
+
+.shippingProduct {
     width: 100%;
     height: auto;
     margin-top: 34px;
 }
-.textShipping{
+
+.textShipping {
     color: #878786;
     font-size: 14px;
     width: 50%;
@@ -2474,20 +2506,24 @@ hr{
     float: left;
     margin-left: 13px;
 }
-.priceShipping{
+
+.priceShipping {
     text-align: center;
-     float: right;
-     margin-right: 40px;
-     font-size: 14px;
-     color: #878786;
+    float: right;
+    margin-right: 40px;
+    font-size: 14px;
+    color: #878786;
 }
-.positionLine{
+
+.positionLine {
     position: relative;
     width: 100%;
     float: left;
 }
-.lineCheckout{
-    height: 100%;;
+
+.lineCheckout {
+    height: 100%;
+    ;
     width: 1px;
     background-color: #C8C8C8;
     float: left;
@@ -2495,39 +2531,45 @@ hr{
     left: -22px;
     top: 54px;
 }
-.inputRadioStyle{
-float: left;
-margin-top: 5px;
-width: 20px;
-height: 19px;
+
+.inputRadioStyle {
+    float: left;
+    margin-top: 5px;
+    width: 20px;
+    height: 19px;
 }
-.inputRadioStyle_2{
-float: left;
-margin-top: 5px;
-width: 20px;
-height: 19px;
+
+.inputRadioStyle_2 {
+    float: left;
+    margin-top: 5px;
+    width: 20px;
+    height: 19px;
 }
-.boxInputRadio{
+
+.boxInputRadio {
     margin-top: 55px;
     width: 100%;
 }
-.textPayment{
-color: #8BC34A;
-font-size: 14px;
-margin-left: 28px;
 
+.textPayment {
+    color: #8BC34A;
+    font-size: 14px;
+    margin-left: 28px;
 }
-.informationCard{
+
+.informationCard {
     font-size: 14px;
     width: 100%;
     margin-top: 24px;
 }
-.boxInputNameOnCard{
+
+.boxInputNameOnCard {
     width: 100%;
     float: left;
     height: auto;
 }
-.styleNameOnCard{
+
+.styleNameOnCard {
     float: left;
     width: 100%;
     height: 40px;
@@ -2536,12 +2578,14 @@ margin-left: 28px;
     margin-top: 6px;
     font-size: 14px;
 }
-.cardNumber{
+
+.cardNumber {
     margin-top: 24px;
     float: left;
     font-size: 14px;
 }
-.inputNumberCard{
+
+.inputNumberCard {
     width: 99%;
     height: 40px;
     border: solid 1px #C8C8C8;
@@ -2551,12 +2595,14 @@ margin-left: 28px;
     float: left;
     position: relative;
 }
-.informationCard{
+
+.informationCard {
     float: left;
     font-size: 14px;
     margin-top: 24px;
 }
-.inputValidCard{
+
+.inputValidCard {
     width: 100%;
     height: 40px;
     border: solid 1px #C8C8C8;
@@ -2565,56 +2611,64 @@ margin-left: 28px;
     font-size: 14px;
     text-transform: uppercase;
 }
-.yearVenciment{
+
+.yearVenciment {
     width: 100%;
     height: 40px;
     border: solid 1px #C8C8C8;
     border-radius: 3px;
     margin-top: 6px;
     font-size: 14px;
-
 }
-.colorPaypal{
+
+.colorPaypal {
     margin-top: 45px;
     color: #000000;
 }
-.emailClient{
+
+.emailClient {
     margin-top: 24px;
     font-size: 14px;
 }
-.styleNextCheckout{
+
+.styleNextCheckout {
     width: 352px !important;
 }
-.boxTitleCongratulations{
+
+.boxTitleCongratulations {
     width: 100%;
     height: 500px;
     float: left;
 }
-.titleCongratulations{
+
+.titleCongratulations {
     font-size: 50px;
     text-align: center;
     color: #8BC34A;
     margin-top: 155px;
 }
-.orderPlaced{
+
+.orderPlaced {
     font-size: 20px;
     text-align: center;
 }
-.buttonStyleShopping{
-width: 100%;
-height: auto;
-text-align: center;
-margin-top: 93px;
+
+.buttonStyleShopping {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 93px;
 }
-.buttonShopping{
+
+.buttonShopping {
     border: 1px solid #8BC34A;
     border-radius: 4px;
     background-color: #8BC34A;
     width: 220px;
     height: 40px;
     color: #FFFFFF;
-
 }
+
 @media screen and (max-width: 768px) {
     .custom {
         width: 100%;
@@ -2654,132 +2708,161 @@ margin-top: 93px;
     .styleButtonContact {
         float: right;
     }
-    .sizeFont{
+
+    .sizeFont {
         text-align: center;
     }
-    .titleFirstCart{
+
+    .titleFirstCart {
         display: none;
     }
-    .titleSecondCart{
+
+    .titleSecondCart {
         display: none;
     }
-    .titleThirdCart{
+
+    .titleThirdCart {
         display: none;
     }
-    .lineCart{
+
+    .lineCart {
         display: none;
     }
-    .imgsBoxCart{
+
+    .imgsBoxCart {
         width: 100% !important;
         height: auto;
-
-
     }
-    .boxMallerCart{
-        width: 100% ;
+
+    .boxMallerCart {
+        width: 100%;
         position: relative;
     }
-    .secondBoxMaller{
-        width: 100% ;
+
+    .secondBoxMaller {
+        width: 100%;
         height: auto;
     }
-    .textProductCart{
-        max-width: 100% ;
+
+    .textProductCart {
+        max-width: 100%;
         height: auto;
-        width: 100% ;
-        text-align: center ;
+        width: 100%;
+        text-align: center;
         margin-top: 10px;
     }
-    .imgX{
+
+    .imgX {
         position: absolute;
         top: -12px;
         left: 134px;
     }
-    .imgsPoltronaCart{
-        max-width: 100% ;
-        width: 100% ;
-        margin:auto;
+
+    .imgsPoltronaCart {
+        max-width: 100%;
+        width: 100%;
+        margin: auto;
         background-position: center;
         margin-left: 0;
         margin-top: 10px;
     }
-    .secondTextCart{
-        width: 100% ;
+
+    .secondTextCart {
+        width: 100%;
     }
-    .thirdBoxMaller{
-    width: 100% ;
+
+    .thirdBoxMaller {
+        width: 100%;
     }
-    .priceProduct{
+
+    .priceProduct {
         margin-top: 10px;
     }
-    .amountProduct{
+
+    .amountProduct {
         margin-top: 10px;
     }
-    .imgPromotionRight{
+
+    .imgPromotionRight {
         display: none;
     }
-    .buttonProcess{
-        width: calc(100% - 25px);
 
+    .buttonProcess {
+        width: calc(100% - 25px);
     }
-    .namesCheckout{
+
+    .namesCheckout {
         margin-top: 20px;
     }
-    .namesCheckoutSecond{
+
+    .namesCheckoutSecond {
         margin-top: 20px;
     }
-    .checkboxSecond{
+
+    .checkboxSecond {
         margin-top: 20px;
     }
-    .checkCreate{
-        margin-top:20px;
+
+    .checkCreate {
+        margin-top: 20px;
     }
-    .listCheckout li{
+
+    .listCheckout li {
         width: 100%;
         text-align: left;
     }
-    .homeBread{
+
+    .homeBread {
         display: none;
     }
-    .lineBread{
+
+    .lineBread {
         display: none;
     }
-    .styleImgsArrow{
+
+    .styleImgsArrow {
         display: none;
     }
-    .arrow{
+
+    .arrow {
         display: none !important;
     }
-    .imgsCheckout_3{
+
+    .imgsCheckout_3 {
         width: 136px;
         height: 100px;
     }
-    .titleCheckout_3{
+
+    .titleCheckout_3 {
         text-align: center;
         font-size: 16px;
     }
-    .nameProductCheckout{
+
+    .nameProductCheckout {
         width: 100%;
         text-align: center;
         margin-left: 0px;
         font-size: 16px;
         margin-top: 10px;
     }
-    .boxCheckoutResponsive{
+
+    .boxCheckoutResponsive {
         width: 100%;
         height: auto;
         text-align: center;
         display: flex;
         justify-content: center;
     }
-    .priceProductCheckout{
+
+    .priceProductCheckout {
         margin-left: 0px;
         text-align: center;
         width: 100%;
         font-size: 16px;
         margin-top: 10px;
     }
-    .boxSizeQty{
+
+    .boxSizeQty {
         width: 100%;
         height: auto;
         float: left;
@@ -2788,7 +2871,8 @@ margin-top: 93px;
         display: flex;
         justify-content: center;
     }
-    .qtyProduct{
+
+    .qtyProduct {
         margin-left: 0px;
         width: 40px;
         height: 40px;
@@ -2796,42 +2880,51 @@ margin-top: 93px;
         margin-top: 10px;
     }
 
-    .textShipping{
+    .textShipping {
         margin-left: 0;
         text-align: left;
     }
-    .priceShipping{
+
+    .priceShipping {
         margin-right: 0;
     }
-    .styleNextCheckout{
+
+    .styleNextCheckout {
         width: 100px !important;
     }
-    .lineCheckout{
+
+    .lineCheckout {
         display: none;
     }
-    .lineStyleCheckout{
+
+    .lineStyleCheckout {
         width: 100%;
         height: 1px;
         background-color: #C8C8C8;
         margin-top: 20px;
         float: left;
     }
-    .boxResponsiveInverted{
+
+    .boxResponsiveInverted {
         display: flex;
         flex-direction: row;
         width: 100%;
     }
-    .buttonGoBack{
+
+    .buttonGoBack {
         order: 1;
         float: left;
     }
-    .positionTextFinal{
+
+    .positionTextFinal {
         order: 2;
     }
-    .buttonSubmit{
+
+    .buttonSubmit {
         order: 3;
     }
 }
+
 @media screen and (max-width: 577px) {
     .listCa li {
         font-size: 14px;
@@ -2858,26 +2951,30 @@ margin-top: 93px;
         text-align: center;
     }
 }
-.imgModalClose{
+
+.imgModalClose {
     background-image: url("../img/close_icon.svg");
     background-repeat: no-repeat;
     width: 15px;
     height: 15px;
     float: right;
 }
-.imgShoppModal{
+
+.imgShoppModal {
     margin-top: 29px;
 }
-.imgInitialSpace{
+
+.imgInitialSpace {
     width: 100%;
     height: auto;
     text-align: center;
 }
-.inputsModal{
-    width: 100%;
 
+.inputsModal {
+    width: 100%;
 }
-.styleInputModal{
+
+.styleInputModal {
     width: 100%;
     height: 40px;
     font-size: 14px;
@@ -2885,28 +2982,34 @@ margin-top: 93px;
     border-radius: 4px;
     border: 1px solid #C6C6C5;
 }
-.secondInputModal{
+
+.secondInputModal {
     margin-top: 20px;
 }
-.largModal{
+
+.largModal {
     width: 100%;
     height: auto;
     float: left;
 }
-.styleCheckboxModal{
+
+.styleCheckboxModal {
     float: left;
     margin-top: 20px;
     margin-right: 5px;
 }
-.checkboxText{
+
+.checkboxText {
     margin-top: 20px;
     color: #878786;
     font-size: 14px;
 }
-.rightText{
-float: right;
+
+.rightText {
+    float: right;
 }
-.buttonModal{
+
+.buttonModal {
     height: 40px;
     width: 101px;
     float: right;
@@ -2917,14 +3020,16 @@ float: right;
     font-size: 14px;
     margin-top: 29px;
 }
-.secondButtonModal{
+
+.secondButtonModal {
     width: 140px;
     float: left;
     background-color: #FFFFFF;
     border: 1px solid #C6C6C5;
     color: #878786;
 }
-.lineModal{
+
+.lineModal {
     height: 1px;
     width: 100%;
     background-color: #F4F4F4;
@@ -2932,7 +3037,8 @@ float: right;
     float: left;
     position: relative;
 }
-.lineText{
+
+.lineText {
     margin-left: 5px;
     color: #C6C6C5;
     font-size: 14px;
@@ -2946,28 +3052,32 @@ float: right;
     background-color: #FFFFFF;
     text-align: center;
 }
-.boxModal{
+
+.boxModal {
     width: 100%;
     height: auto;
     margin-top: 30px;
 }
-.signInWith{
+
+.signInWith {
     text-align: center;
     font-size: 14px;
 }
 
-.textFooterModal{
+.textFooterModal {
     float: right;
     font-size: 14px;
     color: #878786;
     margin-top: 32px;
     margin-bottom: 32px;
 }
-.boxFooterModal{
+
+.boxFooterModal {
     width: 100%;
     height: auto;
 }
-.btnRegister{
+
+.btnRegister {
     border: 1px solid #8BC34A;
     color: #8BC34A;
     background-color: #FFFFFF;
@@ -2977,22 +3087,27 @@ float: right;
     font-size: 14px;
     margin-top: 20px;
 }
-.modal-header{
+
+.modal-header {
     border-bottom: none;
 }
-.modal-content{
+
+.modal-content {
     box-shadow: 1.4px 20px 221px rgba(0, 0, 0, 0.5), 0.8px 12px 68px rgba(0, 0, 0, 0.3);
 }
-.modal-footer{
+
+.modal-footer {
     margin-top: 37px;
 }
-.boxBtnCreate{
+
+.boxBtnCreate {
     width: 100%;
     height: auto;
     text-align: center;
     margin-top: 27px;
 }
-.btnCreate{
+
+.btnCreate {
     width: 152px;
     height: 42px;
     border: solid 1px #8BC34A;
@@ -3001,17 +3116,20 @@ float: right;
     font-size: 14px;
     border-radius: 4px;
 }
-.boxIconsModal{
+
+.boxIconsModal {
     width: 100%;
     height: auto;
     margin: auto;
 }
-.boxMenorModal{
+
+.boxMenorModal {
     width: 182px;
     height: 60px;
     margin: auto;
 }
-.imgFbModal{
+
+.imgFbModal {
     background-image: url("../img/fb.svg");
     background-repeat: no-repeat;
     background-size: contain;
@@ -3020,7 +3138,8 @@ float: right;
     float: left;
     margin-top: 16px;
 }
-.imgGModal{
+
+.imgGModal {
     background-image: url("../img/g+.svg");
     background-repeat: no-repeat;
     background-size: contain;
@@ -3030,7 +3149,8 @@ float: right;
     float: left;
     margin-left: 28px;
 }
-.imgPinModal{
+
+.imgPinModal {
     background-image: url("../img/ptrst.svg");
     background-repeat: no-repeat;
     background-size: contain;
@@ -3079,98 +3199,152 @@ float: right;
     .styleButtonContact {
         float: right;
     }
-    .sizeFont{
+
+    .sizeFont {
         text-align: center;
     }
-    .titleFirstCart{
+
+    .titleFirstCart {
         display: none;
     }
-    .titleSecondCart{
+
+    .titleSecondCart {
         display: none;
     }
-    .titleThirdCart{
+
+    .titleThirdCart {
         display: none;
     }
-    .lineCart{
+
+    .lineCart {
         display: none;
     }
-    .imgsBoxCart{
+
+    .imgsBoxCart {
         width: 100% !important;
         height: auto;
-
-
     }
-    .boxMallerCart{
-        width: 100% ;
+
+    .boxMallerCart {
+        width: 100%;
         position: relative;
     }
-    .secondBoxMaller{
-        width: 100% ;
+
+    .secondBoxMaller {
+        width: 100%;
         height: auto;
     }
-    .textProductCart{
-        max-width: 100% ;
+
+    .textProductCart {
+        max-width: 100%;
         height: auto;
-        width: 100% ;
-        text-align: center ;
+        width: 100%;
+        text-align: center;
         margin-top: 10px;
     }
-    .imgX{
+
+    .imgX {
         position: absolute;
         top: -12px;
         left: 134px;
     }
-    .imgsPoltronaCart{
-        max-width: 100% ;
-        width: 100% ;
-        margin:auto;
+
+    .imgsPoltronaCart {
+        max-width: 100%;
+        width: 100%;
+        margin: auto;
         background-position: center;
         margin-left: 0;
         margin-top: 10px;
     }
-    .secondTextCart{
-        width: 100% ;
+
+    .secondTextCart {
+        width: 100%;
     }
-    .thirdBoxMaller{
-    width: 100% ;
+
+    .thirdBoxMaller {
+        width: 100%;
     }
-    .priceProduct{
+
+    .priceProduct {
         margin-top: 10px;
     }
-    .amountProduct{
+
+    .amountProduct {
         margin-top: 10px;
     }
-    .imgPromotionRight{
+
+    .imgPromotionRight {
         display: none;
     }
-    .buttonProcess{
-        width: calc(100% - 25px);
 
+    .buttonProcess {
+        width: calc(100% - 25px);
     }
-    .boxResponsivoSubtotal{
+
+    .boxResponsivoSubtotal {
         margin: auto;
         margin-top: 20px;
     }
-    .flexD{
+
+    .flexD {
         display: flex;
     }
-    .inputCart{
+
+    .inputCart {
         width: 74%;
         margin-top: 10px;
     }
-    .buttonCartApply{
+
+    .buttonCartApply {
         margin-top: 10px;
     }
-    .flex-container{
 
+    .flex-container {
         width: 100%;
         height: auto;
-        {display: flex; flex-flow: column;}
+
+            {
+            display: flex;
+            flex-flow: column;
+        }
     }
-    .textFinalContact{
 
+    .textFinalContact {
+            {
+            order: 1;
+        }
+    }
+}
 
-        {order: 1;}
+.orderResponsive {
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.orderResponsive div:nth-child(1) {
+    order: 1;
+}
+
+.orderResponsive div:nth-child(2) {
+    order: 2;
+}
+
+.orderResponsive div:nth-child(3) {
+    order: 3;
+}
+
+/* //change the 1024px for you desktop size target */
+@media (max-width:768px) {
+    .orderResponsive div:nth-child(1) {
+        order: 1;
     }
 
+    .orderResponsive div:nth-child(2) {
+        order: 3;
+    }
+
+    .orderResponsive div:nth-child(3) {
+        order: 2;
+    }
 }

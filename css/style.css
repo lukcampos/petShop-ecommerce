@@ -1682,6 +1682,32 @@ ul {
     height: 15px;
     float: left;
     margin-top: 2px;
+
+}
+.iconSquare:before {
+    width: 15px;
+    height: 15px;
+    top: -3px;
+    left: -0px;
+    position: relative;
+    background-color: #FFFFFF;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 1px solid #C6C6C5;
+    border-color: #C6C6C5;
+}
+
+.iconSquare[type='checkbox']:checked:after {
+    width: 15px;
+    height: 15px;
+    top: -27px;
+    position: relative;
+    content: '';
+    display: inline-block;
+    background-color: #8BC34A;
+    visibility: visible;
+    border: 1px solid #C6C6C5;
 }
 
 .spaceMargin {
@@ -3300,21 +3326,8 @@ hr {
         margin-top: 10px;
     }
 
-    .flex-container {
-        width: 100%;
-        height: auto;
 
-            {
-            display: flex;
-            flex-flow: column;
-        }
-    }
 
-    .textFinalContact {
-            {
-            order: 1;
-        }
-    }
 }
 
 .orderResponsive {
@@ -3347,4 +3360,16 @@ hr {
     .orderResponsive div:nth-child(3) {
         order: 2;
     }
+    .buttonSubmit{
+        margin-top: 20px;
+    }
+    .buttonGoBack{
+        margin-top: 20px;
+    }
+    .positionTextFinal{
+        margin-top: 10px;
+        height: auto;
+        margin-bottom: 37px;
+    }
+
 }
